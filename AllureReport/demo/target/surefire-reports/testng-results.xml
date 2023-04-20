@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-20T19:40:20 ICT" name="TestSuite" finished-at="2023-04-20T19:40:40 ICT" duration-ms="19528">
+    <groups>
+    </groups>
+    <test started-at="2023-04-20T19:40:20 ICT" name="LoginTest" finished-at="2023-04-20T19:40:40 ICT" duration-ms="19528">
+      <class name="com.example.tests.ProductTest">
+        <test-method is-config="true" signature="setAllureEnvironment()[pri:0, instance:com.example.tests.ProductTest@4d154ccd]" started-at="2023-04-20T19:40:20 ICT" name="setAllureEnvironment" finished-at="2023-04-20T19:40:20 ICT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAllureEnvironment -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.ProductTest@4d154ccd]" started-at="2023-04-20T19:40:21 ICT" name="setUp" finished-at="2023-04-20T19:40:26 ICT" duration-ms="5006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTheProductsPageTitle()[pri:0, instance:com.example.tests.ProductTest@4d154ccd]" started-at="2023-04-20T19:40:26 ICT" name="verifyTheProductsPageTitle" finished-at="2023-04-20T19:40:30 ICT" duration-ms="4042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheProductsPageTitle -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.example.tests.ProductTest@4d154ccd]" started-at="2023-04-20T19:40:30 ICT" name="takeScreenshot" finished-at="2023-04-20T19:40:30 ICT" duration-ms="516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheProductsPageTitle status=SUCCESS method=ProductTest.verifyTheProductsPageTitle()[pri:0, instance:com.example.tests.ProductTest@4d154ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="verifyTheButtonAddToCartDisplayOnProductsPage()[pri:1, instance:com.example.tests.ProductTest@4d154ccd]" started-at="2023-04-20T19:40:30 ICT" name="verifyTheButtonAddToCartDisplayOnProductsPage" finished-at="2023-04-20T19:40:30 ICT" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheButtonAddToCartDisplayOnProductsPage -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.example.tests.ProductTest@4d154ccd]" started-at="2023-04-20T19:40:30 ICT" name="takeScreenshot" finished-at="2023-04-20T19:40:31 ICT" duration-ms="512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheButtonAddToCartDisplayOnProductsPage status=SUCCESS method=ProductTest.verifyTheButtonAddToCartDisplayOnProductsPage()[pri:1, instance:com.example.tests.ProductTest@4d154ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="verifyClicktButtonAddToCart()[pri:2, instance:com.example.tests.ProductTest@4d154ccd]" started-at="2023-04-20T19:40:31 ICT" name="verifyClicktButtonAddToCart" finished-at="2023-04-20T19:40:39 ICT" duration-ms="8162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClicktButtonAddToCart -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.example.tests.ProductTest@4d154ccd]" started-at="2023-04-20T19:40:39 ICT" name="takeScreenshot" finished-at="2023-04-20T19:40:40 ICT" duration-ms="509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClicktButtonAddToCart status=SUCCESS method=ProductTest.verifyClicktButtonAddToCart()[pri:2, instance:com.example.tests.ProductTest@4d154ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.ProductTest@4d154ccd]" started-at="2023-04-20T19:40:40 ICT" name="tearDown" finished-at="2023-04-20T19:40:40 ICT" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.ProductTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
