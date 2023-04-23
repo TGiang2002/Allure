@@ -8,12 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                bat 'mvn test'
-            }
-            post {
-                always {
-                    allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
-                }
+                bat 'mvn clean test'
             }
         }
     }
