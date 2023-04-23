@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                bat 'mvn clean test -f D:\AllureReport\demo\pom.xml'
+                bat 'mvn clean test'
 
             }
         }
